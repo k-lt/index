@@ -1,9 +1,10 @@
-# meta
+# Index
 
-## index
+## Apps
 
 ### [app.web](https://github.com/k-lt/app.web)
-
+________
+## Services
 ### [svc.applications](https://github.com/k-lt/svc.applications)
 ### [svc.companies](https://github.com/k-lt/svc.companies)
 ### [svc.communications](https://github.com/k-lt/svc.communications)
@@ -23,11 +24,20 @@
 ### [svc.workforce](https://github.com/k-lt/svc.workforce)
 
 ### [svc.int-linear](https://github.com/k-lt/svc.int-linear)
-### [svc.int-github](https://github.com/k-lt/svc.int-github)
-### [svc.int-google-workspace](https://github.com/k-lt/svc.int-google-workspace)
-### [svc.int-notion](https://github.com/k-lt/svc.int-notion)
-### [svc.int-salesforce](https://github.com/k-lt/svc.int-salesforce)
+Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
+### [svc.int-github](https://github.com/k-lt/svc.int-github)
+Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
+
+### [svc.int-google-workspace](https://github.com/k-lt/svc.int-google-workspace)
+Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
+
+### [svc.int-notion](https://github.com/k-lt/svc.int-notion)
+Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
+
+### [svc.int-salesforce](https://github.com/k-lt/svc.int-salesforce)
+Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
+________
 ### [core.psql](https://github.com/k-lt/core.psql)
 ### [core.observe](https://github.com/k-lt/core.observe)
 ### [core.inference](https://github.com/k-lt/core.inference)
@@ -35,7 +45,7 @@
 ### [core.blob](https://github.com/k-lt/core.blob)
 ### [core.channels](https://github.com/k-lt/core.channels)
 ### [core.gateway](https://github.com/k-lt/core.gateway)
-
+### [core.node](https://github.com/k-lt/core.node)
 ### [pkg.auth](https://github.com/k-lt/pkg.auth)
 ### [pkg.psql](https://github.com/k-lt/pkg.psql)
 ### [pkg.gateway](https://github.com/k-lt/pkg.gateway)
