@@ -117,115 +117,31 @@ We're not building just another inference alternative, but we are hosting our ow
 
 <details>
 
-<summary>More domain services:</summary>
+<summary>Services:</summary>
 
-
-## Applications
-`svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Overview of the preferred applications on the website, that are scored against a list of criteria. It is an opinionated exclusion driven list. 
-
-<br/><br/>
-
-## Companies
-`svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Overview of all the companies in the system.
-
-<br/><br/>
-
-## Communications
-`svc.communications` – <a href="https://github.com/k-lt/svc.communications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-<br/><br/>
-
-## Clients
-`svc.clients` – <a href="https://github.com/k-lt/svc.clients"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Clients is the 
-
-<br/><br/>
-
-## Countries
-`svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
-
-## Direction
-`svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Here goes the paragraph
-
-<br/><br/>
-
-## DM
- `svc.dm` – <a href="https://github.com/k-lt/svc.dm"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms.
-
-<br/><br/>
-
-## Doctrine
-`svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Geo
-`svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Roadmaps
-`svc.roadmaps` – <a href="https://github.com/k-lt/svc.roadmaps"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Platform
-`svc.platform` – <a href="https://github.com/k-lt/svc.platform"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Publications
-`svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Products
-`svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Search
-`svc.search` – <a href="https://github.com/k-lt/svc.search"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Tasks
-`svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Workspaces
-`svc.workspaces` – <a href="https://github.com/k-lt/svc.workspaces"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-## Workforce
-`svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-</details>
-<details>
-
-<summary>Integration services:</summary>
-
-
-### Linear
-`svc.int-linear` – <a href="https://github.com/k-lt/svc.int-linear"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
-
-### GitHub
-`svc.int-github` – <a href="https://github.com/k-lt/svc.int-github"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
-
-### Google Workspace
-`svc.int-google-workspace` – <a href="https://github.com/k-lt/svc.int-google-workspace"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
-
-### Notion
-`svc.int-notion` – <a href="https://github.com/k-lt/svc.int-notion"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
-
-### Salesforce
-`svc.int-salesforce` – <a href="https://github.com/k-lt/svc.int-salesforce"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
-
-Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
-
+| **Service**      	| **Type**    	| **Name**                 	| **Short description**                                                                                                                                                                                                 	| **Docs**         	|
+|------------------	|-------------	|--------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------	|
+| Applications     	| Domain      	| svc.applications         	| Overview of the preferred applications on the website, that are scored against a list of criteria. It is an opinionated exclusion driven list.                                                                        	| Button goes here 	|
+| Companies        	| Domain      	| svc.companies            	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Communications   	| Domain      	| svc.communications       	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Clients          	| Domain      	| svc.clients              	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Countries        	| Domain      	| svc.countries            	| Overview of all countries in the world. Available via API, MCP and through domain messages to other services.                                                                                                         	| Button goes here 	|
+| Direction        	| Domain      	| svc.direction            	|                                                                                                                                                                                                                       	| Button goes here 	|
+| DM               	| Domain      	| svc.                     	| The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. 	| Button goes here 	|
+| Doctrine         	| Domain      	| svc.doctrine             	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Geo              	| Domain      	| svc.geo                  	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Roadmaps         	| Domain      	| svc.roadmaps             	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Platform         	| Domain      	| svc.platform             	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Publications     	| Domain      	| svc.publications         	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Products         	| Domain      	| svc.products             	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Search           	| Domain      	| svc.search               	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Tasks            	| Domain      	| svc.tasks                	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Workspaces       	| Domain      	| svc.workspaces           	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Workforce        	| Domain      	| svc.workforce            	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Notion           	| Integration 	| svc.int-notion           	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Google Workspace 	| Integration 	| svc.int-google-workspace 	|                                                                                                                                                                                                                       	| Button goes here 	|
+| Linear           	| Integration 	| svc.int-linear           	|                                                                                                                                                                                                                       	| Button goes here 	|
+| salesforce       	| Integration 	| svc.int-salesforce       	|                                                                                                                                                                                                                       	| Button goes here 	|
 
 </details>
 
