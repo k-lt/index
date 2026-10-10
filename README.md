@@ -62,12 +62,15 @@ All domain and integration services communicate using event carried state transf
 <br/><br/>
 
 
-## [core.observe](https://github.com/k-lt/core.observe)
+## Postgres databases   <img src="core/infra.svg" align="absmiddle">
+`core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="pkg/psql.svg" align="absmiddle"></a>
 
-## Authentication
-`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
+A centrally managed instance of Multigres that support all the services. Since everything is run on multiple nodes, we achieve HA.
+
 
 <br/><br/>
+
+
 
 ## Blob storage
 `core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
@@ -75,6 +78,14 @@ All domain and integration services communicate using event carried state transf
 
 <br/> <br/>
 
+
+
+## [core.observe](https://github.com/k-lt/core.observe)
+
+## Authentication
+`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
+
+<br/><br/>
 
 ## Inference
 `core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
@@ -84,16 +95,6 @@ We're not building just another inference alternative, but we are hosting our ow
 
 
 <br/> <br/>
-
-
-## Postgres databases   <img src="core/infra.svg" align="absmiddle">
-`core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="pkg/psql.svg" align="absmiddle"></a>
-
-A centrally managed instance of Multigres that support all the services. Since everything is run on multiple nodes, we achieve HA.
-
-
-<br/><br/>
-
 
 ## Applications
 `svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
