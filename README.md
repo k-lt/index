@@ -24,15 +24,15 @@ Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https
 ### → svc.clients
 
 Clients is the . [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.clients)
-### → Countries
+### Countries
 `svc.countries` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.countries)
 
 Overview of all countries in the world. Available via API, MCP and through domain messages to other services.  
 
-### → Direction
+### Direction
 `svc.direction` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.direction)
 
-### → svc.dm
+### DM
 `svc.dm` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.dm)
 
 The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. 
