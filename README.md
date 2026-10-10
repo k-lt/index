@@ -6,7 +6,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <img src="architecture.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
 ## Website
-`app.web` – <a href="https://github.com/k-lt/app.web"><img alt="read more" src="more20.svg" align="absmiddle"></a>
+`app.web` – <a href="https://github.com/k-lt/app.web"><img alt="read more" src="more-colored.svg" align="absmiddle"></a>
 
 <br/><br/>
 
