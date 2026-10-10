@@ -5,7 +5,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/> <br/>
 
 
-<img src="arch.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
+<img src="arch2.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
 <br/> <br/>
 
