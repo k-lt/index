@@ -16,10 +16,29 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <br/><br/>
 
+
+## Channels
+`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
+All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
+
+
+## Postgres databases
+`core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="pkg/psql.svg" align="absmiddle"></a>
+
+A centrally managed instance of Multigres that support all the services. With extensions and all. 
+
+
 ## Applications
 `svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Overview of the preferred applications on the website, that are scored against a list of criteria. It is an opinionated exclusion driven list. 
+
+<br/><br/>
+
+## Companies
+`svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
+Overview of all the companies in the system.
 
 <br/><br/>
 
@@ -35,6 +54,11 @@ Clients is the
 
 <br/><br/>
 
+## Countries
+`svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
+Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
+
 ## Direction
 `svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
@@ -49,6 +73,9 @@ The DM service is a super lightweight and minimal chatting service that support 
 
 <br/><br/>
 
+## Doctrine
+`svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
 ## Geo
 `svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
@@ -58,8 +85,17 @@ The DM service is a super lightweight and minimal chatting service that support 
 ### Platform
 `svc.platform` – <a href="https://github.com/k-lt/svc.platform"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
+### Publications
+`svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
+### Products
+`svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
 ### Search
 `svc.search` – <a href="https://github.com/k-lt/svc.search"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
+### Tasks
+`svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 ### Workspaces
 `svc.workspaces` – <a href="https://github.com/k-lt/svc.workspaces"><img alt="read more" src="m2.svg" align="absmiddle"></a>
@@ -68,7 +104,7 @@ The DM service is a super lightweight and minimal chatting service that support 
 `svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 ### Integration services:
-## [core.psql](https://github.com/k-lt/core.psql)
+## [core.psql
 ## [core.observe](https://github.com/k-lt/core.observe)
 ## Authentication
 `core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
@@ -79,20 +115,15 @@ The DM service is a super lightweight and minimal chatting service that support 
 `core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
 
 
-
-## Channels
-`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
-All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
-
 ### core.gateway
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.gateway)
 ### core.node
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
 
-### core.inference
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
-### [pkg.auth](https://github.com/k-lt/pkg.auth)
-### [pkg.psql](https://github.com/k-lt/pkg.psql)
+## Inference
+`core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
+
+
 ### [pkg.gateway](https://github.com/k-lt/pkg.gateway)
 ### [pkg.contracts](https://github.com/k-lt/pkg.contracts)
 ### [pkg.channels](https://github.com/k-lt/pkg.channels)
@@ -100,32 +131,8 @@ All domain and integration services communicate using event carried state transf
 
 <details>
 
-<summary>More integration and domain services</summary>
+<summary>Integration services</summary>
 
-
-## Companies
-`svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="m2.svg" align="absmiddle"></a>
-
-Overview of all the companies in the system.
-
-<br/><br/>
-
-## Countries
-`svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="m2.svg" align="absmiddle"></a>
-
-Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
-
-## Doctrine
-`svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="m2.svg" align="absmiddle"></a>
-
-### Publications
-`svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
-
-### Products
-`svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="m2.svg" align="absmiddle"></a>
-
-### Tasks
-`svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 ### Linear
 `svc.int-linear` – <a href="https://github.com/k-lt/svc.int-linear"><img alt="read more" src="m2.svg" align="absmiddle"></a>
