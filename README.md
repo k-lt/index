@@ -118,14 +118,20 @@ Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pk
 ________
 ### [core.psql](https://github.com/k-lt/core.psql)
 ### [core.observe](https://github.com/k-lt/core.observe)
-### [core.inference](https://github.com/k-lt/core.inference)
-### [core.auth](https://github.com/k-lt/core.auth)
-### [core.blob](https://github.com/k-lt/core.blob)
+### core.auth
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.auth)
+### core.blob
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.blob)
 ### core.channels
 All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.channels)
 
-### [core.gateway](https://github.com/k-lt/core.gateway)
-### [core.node](https://github.com/k-lt/core.node)
+### core.gateway
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.gateway)
+### core.node
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
+
+### core.inference
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
 ### [pkg.auth](https://github.com/k-lt/pkg.auth)
 ### [pkg.psql](https://github.com/k-lt/pkg.psql)
 ### [pkg.gateway](https://github.com/k-lt/pkg.gateway)
