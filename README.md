@@ -50,7 +50,7 @@ Read more ↗
 ### → [svc.int-salesforce](https://github.com/k-lt/svc.int-salesforce)
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-Read more ↗
+𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 ↗
 ________
 ### [core.psql](https://github.com/k-lt/core.psql)
 ### [core.observe](https://github.com/k-lt/core.observe)
@@ -60,7 +60,8 @@ ________
 ### core.channels
 The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels).
 
-[Read more ↗](https://github.com/k-lt/core.channels)
+[𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 ↗](https://github.com/k-lt/core.channels)
+[𝗥𝗘𝗔𝗗 𝗠𝗢𝗥𝗘 ↗](https://github.com/k-lt/core.channels)
 
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
