@@ -5,7 +5,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/> <br/>
 
 
-<img src="arch3.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
+<img src="i/arch3.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
 <p align="center"> Illustration of architecture with some elements </p>
 
@@ -14,7 +14,7 @@ Around the whole architeture is the nodes and on the nodes we have instances of 
 <br/> <br/>
 
 ## Contracts
-`pkg.contracts`  – <a href="https://github.com/k-lt/pkg.contracts"><img alt="read more" src="pkg/contracts.svg" align="absmiddle"></a>
+`pkg.contracts`  – <a href="https://github.com/k-lt/pkg.contracts"><img alt="read more" src="i/pkg/contracts.svg" align="absmiddle"></a>
 
 Everything in the platform is fully contract driven, even the source-aligned integrations has contracts they offer over the channels it distributes data on. This repository is editable by the owners of the contracts. The contracts, both for messages and for the API is versioned.
 
@@ -29,8 +29,8 @@ npm install @k-lt/contracts@0.1.0
 
 <br/> <br/>
 
-## Bare metal nodes     <img src="core/infra.svg" align="absmiddle">
-`core.node` – <a href="https://github.com/k-lt/core.node"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+## Bare metal nodes     <img src="i/core/infra.svg" align="absmiddle">
+`core.node` – <a href="https://github.com/k-lt/core.node"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 
 The bare metal nodes are all running from Hetzner. The `core.node` repository is used to: 
@@ -43,8 +43,8 @@ And that is about it. It makes it feel like Vercel while running on bare metal.
 
 <br/> <br/>
 
-## Gateway    <img src="core/infra.svg" align="absmiddle">
-`core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/gw.svg" align="absmiddle"></a>
+## Gateway    <img src="i/core/infra.svg" align="absmiddle">
+`core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="i/pkg/gw.svg" align="absmiddle"></a>
 
 The gateway is where all traffic inbound to the node goes through, it is based on Pingora and extended with MCP capabilites. All the domain services makes their APIs available on the gateway using the `@pkg.gw` library. 
 
@@ -54,8 +54,8 @@ That way all services' APIs feel and look the same across the board. It enforces
 <br/><br/>
 
 
-## Channels   <img src="core/infra.svg" align="absmiddle">
-`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
+## Channels   <img src="i/core/infra.svg" align="absmiddle">
+`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="i/pkg/ch.svg" align="absmiddle"></a>
 
 Based on redis streams All domain and integration services communicate using event carried state transfers[^1] on redis streams through the shared HA.
 
@@ -71,8 +71,8 @@ Alternative naming could be
 <br/><br/>
 
 
-## Postgres databases   <img src="core/infra.svg" align="absmiddle">
-`core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="pkg/psql.svg" align="absmiddle"></a>
+## Postgres databases   <img src="i/core/infra.svg" align="absmiddle">
+`core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="i/pkg/psql.svg" align="absmiddle"></a>
 
 A centrally managed instance of Multigres that support all the services. Since everything is run on multiple nodes, we achieve HA.
 
@@ -82,7 +82,7 @@ A centrally managed instance of Multigres that support all the services. Since e
 
 
 ## Blob storage
-`core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
+`core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="i/pkg/blob.svg" align="absmiddle"></a>
 
 
 <br/> <br/>
@@ -92,7 +92,7 @@ A centrally managed instance of Multigres that support all the services. Since e
 ## [core.observe](https://github.com/k-lt/core.observe)
 
 ## Authentication
-`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
+`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="i/pkg/auth.svg" align="absmiddle"></a>
 
 <br/><br/>
 
@@ -106,79 +106,79 @@ We're not building just another inference alternative, but we are hosting our ow
 <br/> <br/>
 
 ## Applications
-`svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Overview of the preferred applications on the website, that are scored against a list of criteria. It is an opinionated exclusion driven list. 
 
 <br/><br/>
 
 ## Companies
-`svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Overview of all the companies in the system.
 
 <br/><br/>
 
 ## Communications
-`svc.communications` – <a href="https://github.com/k-lt/svc.communications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.communications` – <a href="https://github.com/k-lt/svc.communications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 <br/><br/>
 
 ## Clients
-`svc.clients` – <a href="https://github.com/k-lt/svc.clients"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.clients` – <a href="https://github.com/k-lt/svc.clients"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Clients is the 
 
 <br/><br/>
 
 ## Countries
-`svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
 
 ## Direction
-`svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Here goes the paragraph
 
 <br/><br/>
 
 ## DM
- `svc.dm` – <a href="https://github.com/k-lt/svc.dm"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+ `svc.dm` – <a href="https://github.com/k-lt/svc.dm"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms.
 
 <br/><br/>
 
 ## Doctrine
-`svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ## Geo
-`svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Roadmaps
-`svc.roadmaps` – <a href="https://github.com/k-lt/svc.roadmaps"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.roadmaps` – <a href="https://github.com/k-lt/svc.roadmaps"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Platform
-`svc.platform` – <a href="https://github.com/k-lt/svc.platform"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.platform` – <a href="https://github.com/k-lt/svc.platform"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Publications
-`svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Products
-`svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Search
-`svc.search` – <a href="https://github.com/k-lt/svc.search"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.search` – <a href="https://github.com/k-lt/svc.search"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Tasks
-`svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Workspaces
-`svc.workspaces` – <a href="https://github.com/k-lt/svc.workspaces"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.workspaces` – <a href="https://github.com/k-lt/svc.workspaces"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Workforce
-`svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 ### Integration services:
 
@@ -189,27 +189,27 @@ The DM service is a super lightweight and minimal chatting service that support 
 
 
 ### Linear
-`svc.int-linear` – <a href="https://github.com/k-lt/svc.int-linear"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.int-linear` – <a href="https://github.com/k-lt/svc.int-linear"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
 ### GitHub
-`svc.int-github` – <a href="https://github.com/k-lt/svc.int-github"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.int-github` – <a href="https://github.com/k-lt/svc.int-github"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
 ### Google Workspace
-`svc.int-google-workspace` – <a href="https://github.com/k-lt/svc.int-google-workspace"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.int-google-workspace` – <a href="https://github.com/k-lt/svc.int-google-workspace"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
 ### Notion
-`svc.int-notion` – <a href="https://github.com/k-lt/svc.int-notion"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.int-notion` – <a href="https://github.com/k-lt/svc.int-notion"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
 ### Salesforce
-`svc.int-salesforce` – <a href="https://github.com/k-lt/svc.int-salesforce"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.int-salesforce` – <a href="https://github.com/k-lt/svc.int-salesforce"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
