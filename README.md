@@ -13,7 +13,9 @@ This project is a polyrepo containing applications, shared packages, and domain-
 ## Applications
 `svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
-Overview of the preferred applications on the website, that are scored against criteria.
+Overview of the preferred applications on the website, that are scored against a list of criteria. It is an opinionated exclusion driven list. 
+
+<br/><br/>
 
 ## Companies
 `svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="m2.svg" align="absmiddle"></a>
