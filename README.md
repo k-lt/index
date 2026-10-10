@@ -71,7 +71,9 @@ Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https
 ### → svc.clients
 
 Clients is the . [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.clients)
-### → [svc.countries](https://github.com/k-lt/svc.countries)
+### → svc.countries
+
+Overview of all countries in the world. Available via API, MCP and through domain messages to other services.  [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.countries)
 ### → [svc.direction](https://github.com/k-lt/svc.direction)
 ### → svc.dm
 
