@@ -29,6 +29,15 @@ npm install @k-lt/contracts@0.1.0
 
 <br/> <br/>
 
+## Bare metal nodes     <img src="core/infra.svg" align="absmiddle">
+`core.node` – <a href="https://github.com/k-lt/core.node"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+
+
+The bare metal nodes are all running from Hetzner 
+
+
+<br/> <br/>
+
 ## Gateway    <img src="core/infra.svg" align="absmiddle">
 `core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/gw.svg" align="absmiddle"></a>
 
@@ -60,13 +69,6 @@ All domain and integration services communicate using event carried state transf
 
 
 <br/> <br/>
-
-
-## Bare metal nodes
-`core.node` – 
-
-
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
 
 
 ## Inference
