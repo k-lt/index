@@ -98,12 +98,12 @@ The underlying infrastructure is distributed, so each service that will use it n
 <br/> <br/>
 
 
-## Authentication
+## Authentication   <img src="i/core.svg" align="absmiddle">
 `core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="i/pkg/auth.svg" align="absmiddle"></a>
 
 <br/><br/>
 
-## Inference
+## Inference   <img src="i/core.svg" align="absmiddle">
 `core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
 
 We're not building just another inference alternative, but we are hosting our own fine tuned and specialized models, and have a router to other inference providers at 0% fee.
