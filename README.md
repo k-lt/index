@@ -74,7 +74,7 @@ Alternative naming could be
 ## Postgres databases   <img src="i/core/infra.svg" align="absmiddle">
 `core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="i/pkg/psql.svg" align="absmiddle"></a>
 
-A centrally managed instance of Multigres that support all the services. Since everything is run on multiple nodes, we achieve HA.
+A centrally managed instance of Multigres that support all the services. This is a distributed solution just like Channels, Gateway and Blob.
 
 
 <br/><br/>
@@ -94,6 +94,8 @@ The underlying infrastructure is distributed, so each service that will use it n
 
 ## Observe   <img src="i/core.svg" align="absmiddle">
 `core.observe`  –  <a href="https://github.com/k-lt/core.observe"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.log"><img alt="read more" src="i/pkg/log.svg" align="absmiddle"></a>
+
+A core feature of the platform is the observability through log insights, build statuses and in general seeing the health of each service. This is offered through the observe service. 
 
 <br/> <br/>
 
