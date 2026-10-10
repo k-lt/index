@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="92" height="20" viewBox="0 0 92 20" role="img" aria-label="read more">
   <rect width="92" height="20" rx="5" fill="#f3f2f0"/>
   <text x="8" y="10.5" dominant-baseline="central" fill="#1f2023" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" font-weight="500">read more</text>
-  <path d="M74 14.25 L83 5.25 M76.5 5.25 H83 V11.75" fill="none" stroke="#1f2023" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 12.6 L82.2 7.4 M78.8 7.4 H82.2 V10.8" fill="none" stroke="#1f2023" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
