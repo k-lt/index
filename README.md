@@ -111,15 +111,18 @@ Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pk
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-________
 ### [core.psql](https://github.com/k-lt/core.psql)
 ### [core.observe](https://github.com/k-lt/core.observe)
 ### core.auth
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.auth)
-### core.blob
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.blob)
-### core.channels
-All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.channels)
+### Blob storage
+`core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
+
+
+
+## Channels
+`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
+All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
 
 ### core.gateway
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.gateway)
