@@ -5,12 +5,11 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <img src="architecture.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
-## Apps
+## Website
+`app.web` – <a href="https://github.com/k-lt/app.web"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
-### [app.web](https://github.com/k-lt/app.web)
+<br/><br/>
 
-## Services
-### Domain services:
 ## Applications
 `svc.applications` – <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
