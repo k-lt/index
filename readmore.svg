@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="32" viewBox="0 0 132 32" role="img" aria-label="read more">
+  <rect width="132" height="32" rx="8" fill="#f3f2f0"/>
+  <text x="14" y="16.5" fill="#1f2023" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="500">read more</text>
+  <path d="M104 20.5 L116 8.5 M108 8.5 H116 V16.5" fill="none" stroke="#1f2023" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
