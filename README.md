@@ -33,7 +33,12 @@ npm install @k-lt/contracts@0.1.0
 `core.node` – <a href="https://github.com/k-lt/core.node"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 
-The bare metal nodes are all running from Hetzner 
+The bare metal nodes are all running from Hetzner. The `core.node` repository is used to: 
+1. Set up new nodes
+2. Runs a watcher on the server
+3. Ensures new merges to main is reflected on the specific node
+
+And that is about it. It makes it feel like Vercel without the overhead.
 
 
 <br/> <br/>
