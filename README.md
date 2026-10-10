@@ -11,15 +11,18 @@ This project is a polyrepo containing applications, shared packages, and domain-
 ________
 ## Services
 ### Domain services:
-### → svc.applications
-Overview of the preferred applications on the website, that are scored against criteria. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.applications)
+### Applications
+`svc.applications` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.applications)
 
-### → svc.companies
-Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.companies)
+Overview of the preferred applications on the website, that are scored against criteria. 
 
-### → svc.communications
+### Companies
+`svc.companies` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.companies)
 
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
+Overview of all the companies in the system. 
+
+### Communications
+`svc.communications` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
 
 ### → svc.clients
 
