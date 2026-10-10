@@ -5,16 +5,16 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/> <br/>
 
 
-<img src="arch2.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
+<img src="arch3.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
 
 
 <br/> <br/>
 
-## Website
-`app.web` – <a href="https://github.com/k-lt/app.web"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+## Contracts
+ [pkg.contracts](https://github.com/k-lt/pkg.contracts)
 
-<br/><br/>
+<br/> <br/>
 
 ## Gateway    <img src="core/infra.svg" align="absmiddle">
 `core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/gw.svg" align="absmiddle"></a>
@@ -23,6 +23,14 @@ The gateway is where all traffic inbound to the node goes through, it is based o
 
 That way all services' APIs feel and look the same across the board. It enforces conformity.
 
+
+<br/><br/>
+
+
+## Channels   <img src="core/infra.svg" align="absmiddle">
+`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
+
+All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
 
 <br/><br/>
 
@@ -46,6 +54,7 @@ That way all services' APIs feel and look the same across the board. It enforces
 
 
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
+
 
 ## Inference
 `core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
