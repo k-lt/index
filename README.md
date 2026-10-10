@@ -3,52 +3,7 @@
 This project is a polyrepo containing applications, shared packages, and domain-, integration-, and core-services.
 
 
-```mermaid
-block-beta
-  columns 15
-  Web["Web"]:2 Native["Native"]:2 Agents["Agents"]:2 space OtsA["Off-the-shelf A"]:2 OtsB["Off-the-shelf B"]:2 OtsC["Off-the-shelf C"]:2 OtsD["Off-the-shelf D"]:2
-  Catalogue["<a href='https://github.com/k-lt/index#coregateway'>core.gateway</a>"]:6 space:9
-  DS1["Domain Service"]:2 space:2 DS2["Domain Service"]:2 space IS1(["Integration Service"]):2 IS2(["Integration Service"]):2 IS3(["Integration Service"]):2 IS4(["Integration Service"]):2
-  P1["PUB"] S1["SUB"] space:2 P2["PUB"] S2["SUB"] space P3["PUB"] S3["SUB"] P4["PUB"] S4["SUB"] P5["PUB"] S5["SUB"] P6["PUB"] S6["SUB"]
-  Streams["<a href='https://github.com/k-lt/index#corechannels'>Channels</a>"]:15
-
-  Web -- "REST" --> Catalogue
-  Native -- "REST" --> Catalogue
-  Agents -- "REST" --> Catalogue
-
-  OtsA -- "REST" --> IS1
-  OtsB -- "REST" --> IS2
-  OtsC -- "BLOB" --> IS3
-  OtsD -- "SQL" --> IS4
-
-  DS1 --> P1
-  DS1 --> S1
-  DS2 --> P2
-  DS2 --> S2
-  IS1 --> P3
-  IS1 --> S3
-  IS2 --> P4
-  IS2 --> S4
-  IS3 --> P5
-  IS3 --> S5
-  IS4 --> P6
-  IS4 --> S6
-
-  P1 --> Streams
-  S1 --> Streams
-  P2 --> Streams
-  S2 --> Streams
-  P3 --> Streams
-  S3 --> Streams
-  P4 --> Streams
-  S4 --> Streams
-  P5 --> Streams
-  S5 --> Streams
-  P6 --> Streams
-  S6 --> Streams
-
-  style P1,S1,P2,S2,P3,S3,P4,S4,P5,S5,P6,S6 fill:transparent,stroke:transparent
-```
+<img src="architecture.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
 
 
