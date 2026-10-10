@@ -20,6 +20,10 @@ This allows us to introduce breaking changes and have the other services and app
 
 This repository is made available as a github package
 
+```bash
+npm install @k-lt/contracts@0.1.0
+```
+
 <br/> <br/>
 
 ## Gateway    <img src="core/infra.svg" align="absmiddle">
