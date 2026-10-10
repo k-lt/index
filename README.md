@@ -11,52 +11,52 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/><br/>
 
 ## Applications
-`svc.applications` – <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
+`svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Overview of the preferred applications on the website, that are scored against criteria.
 
-### Companies
+## Companies
 `svc.companies` – <a href="https://github.com/k-lt/svc.companies"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Overview of all the companies in the system.
 
 <br/><br/>
 
-### Communications
+## Communications
 `svc.communications` – <a href="https://github.com/k-lt/svc.communications"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 <br/><br/>
 
-### Clients
+## Clients
 `svc.clients` – <a href="https://github.com/k-lt/svc.clients"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Clients is the 
 
 <br/><br/>
 
-### Countries
+## Countries
 `svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
 
-### Direction
+## Direction
 `svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 Here goes the paragraph
 
 <br/><br/>
 
-### DM
+## DM
  `svc.dm` – <a href="https://github.com/k-lt/svc.dm"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms.
 
 <br/><br/>
 
-### Doctrine
+## Doctrine
 `svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
-### Geo
+## Geo
 `svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 ### Roadmaps
