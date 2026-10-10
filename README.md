@@ -12,70 +12,92 @@ ________
 ## Services
 ### Domain services:
 ### Applications
-`svc.applications` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.applications)
+`svc.applications` – [![read more](readmore.svg)](https://github.com/k-lt/svc.applications)
 
-Overview of the preferred applications on the website, that are scored against criteria. 
+Overview of the preferred applications on the website, that are scored against criteria.
 
 ### Companies
-`svc.companies` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.companies)
+`svc.companies` – [![read more](readmore.svg)](https://github.com/k-lt/svc.companies)
 
-Overview of all the companies in the system. 
+Overview of all the companies in the system.
 
 ### Communications
-`svc.communications` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
+`svc.communications` – [![read more](readmore.svg)](https://github.com/k-lt/svc.communications)
 
-### → svc.clients
+### Clients
+`svc.clients` – [![read more](readmore.svg)](https://github.com/k-lt/svc.clients)
 
-Clients is the . [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.clients)
+Clients is the .
+
 ### Countries
-`svc.countries` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.countries)
+`svc.countries` – [![read more](readmore.svg)](https://github.com/k-lt/svc.countries)
 
-Overview of all countries in the world. Available via API, MCP and through domain messages to other services.  
+Overview of all countries in the world. Available via API, MCP and through domain messages to other services.
 
 ### Direction
-`svc.direction` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.direction)
+`svc.direction` – [![read more](readmore.svg)](https://github.com/k-lt/svc.direction)
 
 ### DM
-`svc.dm` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.dm)
+`svc.dm` – [![read more](readmore.svg)](https://github.com/k-lt/svc.dm)
 
-The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. 
+The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms.
 
-### → [svc.doctrine](https://github.com/k-lt/svc.doctrine)
-### → [svc.geo](https://github.com/k-lt/svc.geo)
-### → [svc.roadmaps](https://github.com/k-lt/svc.roadmaps)
-### → [svc.platform](https://github.com/k-lt/svc.platform)
-### → [svc.publications](https://github.com/k-lt/svc.publications)
-### → [svc.products](https://github.com/k-lt/svc.products)
-### → [svc.search](https://github.com/k-lt/svc.search)
-### → [svc.tasks](https://github.com/k-lt/svc.tasks)
-### → [svc.workspaces](https://github.com/k-lt/svc.workspaces)
-### → [svc.workforce](https://github.com/k-lt/svc.workforce)
+### Doctrine
+`svc.doctrine` – [![read more](readmore.svg)](https://github.com/k-lt/svc.doctrine)
 
-### Integration services: 
-### → [svc.int-linear](https://github.com/k-lt/svc.int-linear)
+### Geo
+`svc.geo` – [![read more](readmore.svg)](https://github.com/k-lt/svc.geo)
+
+### Roadmaps
+`svc.roadmaps` – [![read more](readmore.svg)](https://github.com/k-lt/svc.roadmaps)
+
+### Platform
+`svc.platform` – [![read more](readmore.svg)](https://github.com/k-lt/svc.platform)
+
+### Publications
+`svc.publications` – [![read more](readmore.svg)](https://github.com/k-lt/svc.publications)
+
+### Products
+`svc.products` – [![read more](readmore.svg)](https://github.com/k-lt/svc.products)
+
+### Search
+`svc.search` – [![read more](readmore.svg)](https://github.com/k-lt/svc.search)
+
+### Tasks
+`svc.tasks` – [![read more](readmore.svg)](https://github.com/k-lt/svc.tasks)
+
+### Workspaces
+`svc.workspaces` – [![read more](readmore.svg)](https://github.com/k-lt/svc.workspaces)
+
+### Workforce
+`svc.workforce` – [![read more](readmore.svg)](https://github.com/k-lt/svc.workforce)
+
+### Integration services:
+### Linear
+`svc.int-linear` – [![read more](readmore.svg)](https://github.com/k-lt/svc.int-linear)
+
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-Read more ↗
+### GitHub
+`svc.int-github` – [![read more](readmore.svg)](https://github.com/k-lt/svc.int-github)
 
-### →[svc.int-github](https://github.com/k-lt/svc.int-github)
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-Read more ↗
+### Google Workspace
+`svc.int-google-workspace` – [![read more](readmore.svg)](https://github.com/k-lt/svc.int-google-workspace)
 
-### → [svc.int-google-workspace](https://github.com/k-lt/svc.int-google-workspace)
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-Read more ↗
+### Notion
+`svc.int-notion` – [![read more](readmore.svg)](https://github.com/k-lt/svc.int-notion)
 
-### → [svc.int-notion](https://github.com/k-lt/svc.int-notion)
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-Read more ↗
+### Salesforce
+`svc.int-salesforce` – [![read more](readmore.svg)](https://github.com/k-lt/svc.int-salesforce)
 
-### → [svc.int-salesforce](https://github.com/k-lt/svc.int-salesforce)
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 ↗
 ________
 ### [core.psql](https://github.com/k-lt/core.psql)
 ### [core.observe](https://github.com/k-lt/core.observe)
