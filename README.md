@@ -8,10 +8,10 @@ This project is a polyrepo containing applications, shared packages, and domain-
 ## Apps
 
 ### [app.web](https://github.com/k-lt/app.web)
-________
+
 ## Services
 ### Domain services:
-### Applications
+## Applications
 `svc.applications` – <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
 Overview of the preferred applications on the website, that are scored against criteria.
