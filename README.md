@@ -16,6 +16,34 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <br/><br/>
 
+## Gateway    <img src="core/infra.svg" align="absmiddle">
+`core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/gw.svg" align="absmiddle"></a>
+
+The gateway is where all traffic inbound to the node goes through, it is based on Pingora and extended with MCP capabilites. All the domain services makes their APIs available on the gateway using the [@pkg.gw](https://github.com/k-lt/pkg.gw) library. 
+
+That way all services' APIs feel and look the same across the board. It enforces conformity.
+
+
+<br/><br/>
+
+
+## [core.observe](https://github.com/k-lt/core.observe)
+
+## Authentication
+`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
+
+<br/><br/>
+
+## Blob storage
+`core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
+
+
+### core.node
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
+
+## Inference
+`core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
+
 
 ## Channels   <img src="core/infra.svg" align="absmiddle">
 `core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
@@ -110,25 +138,6 @@ The DM service is a super lightweight and minimal chatting service that support 
 `svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="m2.svg" align="absmiddle"></a>
 
 ### Integration services:
-## [core.psql
-## [core.observe](https://github.com/k-lt/core.observe)
-## Authentication
-`core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
-
-<br/><br/>
-
-## Blob storage
-`core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
-
-
-### core.gateway
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.gateway)
-### core.node
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
-
-## Inference
-`core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
-
 
 ### [pkg.gateway](https://github.com/k-lt/pkg.gateway)
 ### [pkg.contracts](https://github.com/k-lt/pkg.contracts)
