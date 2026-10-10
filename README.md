@@ -17,7 +17,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/><br/>
 
 
-## Channels <img src="core/infra.svg"/>
+## Channels <img src="core/infra.svg" align="absmiddle">
 `core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
 All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
 
