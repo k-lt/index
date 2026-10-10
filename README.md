@@ -1,5 +1,10 @@
-# Index
+# ● Kalt — Index
 
+This project is a polyrepo with many smaller repositories. 
+
+It is a architecture based on services (domain and ), communicating using event carried state transfers on redis streams through the shared HA , 
+
+with both off the shelf applications
 
 ## Apps
 
