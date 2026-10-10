@@ -59,6 +59,8 @@ That way all services' APIs feel and look the same across the board. It enforces
 
 Based on redis streams All domain and integration services communicate using event carried state transfers [^1] on redis streams through the shared HA.
 
+
+[^1] The events enclose all the data for the domain, rather than serving as basic change notifications or a smaller subset of the entity. When a source system modifies data, it broadcasts an event carrying the detailed state, enabling downstream consumer systems to replicate and maintain local copies of the information.  With all required data locally accessible, consumer services can execute processing and queries directly without making remote network calls back to the originating service, which reduces network traffic while improving performance, availability, and system decoupling.
 <br/><br/>
 
 
@@ -207,7 +209,3 @@ Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pk
 
 </details>
 
-⁰¹²³⁴⁵⁶⁷⁸⁹
-[^1] The events enclose all the data for the domain, rather than serving as basic change notifications or a smaller subset of the entity. When a source system modifies data, it broadcasts an event carrying the detailed state, enabling downstream consumer systems to replicate and maintain local copies of the information. 
-
-  With all required data locally accessible, consumer services can execute processing and queries directly without making remote network calls back to the originating service, which reduces network traffic while improving performance, availability, and system decoupling.
