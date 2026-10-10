@@ -7,7 +7,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <img src="arch3.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
-
+<p align="center"> Illustration of architecture with some elements </p>
 
 <br/> <br/>
 
@@ -19,6 +19,7 @@ Everything in the platform is fully contract driven, even the source-aligned int
 This allows us to introduce breaking changes and have the other services and applications gracefully migrate over to the next version.
 
 This repository is made available as a GitHub Packages, and contain some minor helpers to consume some of the source-aligned events. But they never contain any domain logic or similar. 
+
 
 ```bash
 npm install @k-lt/contracts@0.1.0
