@@ -5,7 +5,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/> <br/>
 
 
-<img src="i/arch.svg" alt="High level overview of the architecture." width="100%">
+<img src="i/architecture.svg" alt="High level overview of the architecture." width="100%">
 
 <p align="center"> Illustration of architecture with some elements </p>
 
