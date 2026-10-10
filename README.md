@@ -62,7 +62,7 @@ The domain and integration services communicate using event carried state transf
 
 [𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 **↗**](https://github.com/k-lt/core.channels)
 
-[**read more ↗**](https://github.com/k-lt/core.channels)
+[**𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 ↗**](https://github.com/k-lt/core.channels)
 
 
 
