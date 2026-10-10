@@ -81,9 +81,12 @@ A centrally managed instance of Multigres that support all the services. Since e
 
 
 
-## Blob storage
+## Blob storage   <img src="i/core/infra.svg" align="absmiddle">
 `core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="i/pkg/blob.svg" align="absmiddle"></a>
 
+Our S3-compatible lightweight geo-distributed object store, based on (Garage)[https://crates.io/crates/garage]. Used by other services through the `@pkg.blob`.
+
+The underlying infrastructure is distributed, so each service that will use it needs to register their service to get containers in the service repo itself. 
 
 <br/> <br/>
 
