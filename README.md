@@ -60,8 +60,10 @@ ________
 ### core.channels
 The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels).
 
+[𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 **↗**](https://github.com/k-lt/core.channels)
+
+
 [𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 ↗](https://github.com/k-lt/core.channels)
-[𝗥𝗘𝗔𝗗 𝗠𝗢𝗥𝗘 ↗](https://github.com/k-lt/core.channels)
 
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
