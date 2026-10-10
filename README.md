@@ -57,7 +57,7 @@ That way all services' APIs feel and look the same across the board. It enforces
 ## Channels   <img src="core/infra.svg" align="absmiddle">
 `core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
 
-Based on redis streams All domain and integration services communicate using event carried state transfers [^bignote] on redis streams through the shared HA.
+Based on redis streams All domain and integration services communicate using event carried state transfers [^1] on redis streams through the shared HA.
 
 <br/><br/>
 
@@ -208,6 +208,6 @@ Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pk
 </details>
 
 ⁰¹²³⁴⁵⁶⁷⁸⁹
-[^bignote] The events enclose all the data for the domain, rather than serving as basic change notifications or a smaller subset of the entity. When a source system modifies data, it broadcasts an event carrying the detailed state, enabling downstream consumer systems to replicate and maintain local copies of the information. 
+[^1] The events enclose all the data for the domain, rather than serving as basic change notifications or a smaller subset of the entity. When a source system modifies data, it broadcasts an event carrying the detailed state, enabling downstream consumer systems to replicate and maintain local copies of the information. 
 
   With all required data locally accessible, consumer services can execute processing and queries directly without making remote network calls back to the originating service, which reduces network traffic while improving performance, availability, and system decoupling.
