@@ -68,7 +68,9 @@ Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https
 
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
 
-### → [svc.clients](https://github.com/k-lt/svc.clients)
+### → svc.clients
+
+Clients is the . [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.clients)
 ### → [svc.countries](https://github.com/k-lt/svc.countries)
 ### → [svc.direction](https://github.com/k-lt/svc.direction)
 ### → svc.dm
