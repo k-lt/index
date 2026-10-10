@@ -38,19 +38,23 @@ That way all services' APIs feel and look the same across the board. It enforces
 `core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
 
 
-### core.node
+<br/> <br/>
+
+
+## Bare metal nodes
+`core.node` – 
+
+
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.node)
 
 ## Inference
 `core.inference` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.inference)
 
+We're not building just another inference alternative, but we are hosting our own fine tuned and specialized models, and have a router to other inference providers at 0% fee.
 
-## Channels   <img src="core/infra.svg" align="absmiddle">
-`core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
 
-All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
 
-<br/><br/>
+<br/> <br/>
 
 
 ## Postgres databases   <img src="core/infra.svg" align="absmiddle">
@@ -139,10 +143,6 @@ The DM service is a super lightweight and minimal chatting service that support 
 
 ### Integration services:
 
-### [pkg.gateway](https://github.com/k-lt/pkg.gateway)
-### [pkg.contracts](https://github.com/k-lt/pkg.contracts)
-### [pkg.channels](https://github.com/k-lt/pkg.channels)
-### [pkg.observe](https://github.com/k-lt/pkg.observe)
 
 <details>
 
