@@ -58,13 +58,13 @@ block-beta
 ________
 ## Services
 ### Domain services:
-### → `svc.applications`
+### → svc.applications
 Overview of the preferred applications on the website, that are scored against criteria. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.applications)
 
-### → `svc.companies`
+### → svc.companies
 Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.companies)
 
-### → `svc.communications`
+### → svc.communications
 
 [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
 
