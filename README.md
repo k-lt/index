@@ -111,13 +111,14 @@ Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pk
 
 Publishes source-aligned events using [@pkg.channels](https://github.com/k-lt/pkg.channels) to a channel. Projects back whatever it should project back.
 
-### [core.psql](https://github.com/k-lt/core.psql)
-### [core.observe](https://github.com/k-lt/core.observe)
-### Authentication
+## [core.psql](https://github.com/k-lt/core.psql)
+## [core.observe](https://github.com/k-lt/core.observe)
+## Authentication
 `core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="pkg/auth.svg" align="absmiddle"></a>
 
-[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.auth)
-### Blob storage
+<br/><br/>
+
+## Blob storage
 `core.blob` –  <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/core.blob"><img alt="read more" src="pkg/blob.svg" align="absmiddle"></a>
 
 
