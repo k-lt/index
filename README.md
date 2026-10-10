@@ -2,6 +2,48 @@
 
 This project is a polyrepo containing applications, shared packages, and domain-, integration-, and core-services.
 
+
+```mermaid
+block-beta
+  columns 8
+
+  Web("Web") Native("Native") Agents("Agents") space SAP("SAP") Bigcommerce("Bigcommerce") Relex("Relex") Databricks("Databricks")
+  Catalogue("API & MCP Catalogue"):3 space:5
+  DS1("Domain Service") space DS2("Domain Service") space IS1(["Integration Service"]) IS2(["Integration Service"]) IS3(["Integration Service"]) IS4(["Integration Service"])
+  Streams[("Message Streams")]:8
+
+  Web -- "REST" --> Catalogue
+  Native -- "REST" --> Catalogue
+  Agents -- "REST" --> Catalogue
+
+  SAP -- "REST" --> IS1
+  SAP -- "REST" --> IS1
+  Bigcommerce -- "REST" --> IS2
+  Bigcommerce -- "REST" --> IS2
+  Relex -- "BLOB" --> IS3
+  Relex -- "BLOB" --> IS3
+  Databricks -- "SQL" --> IS4
+  Databricks -- "SQL" --> IS4
+
+  DS1 -- "PUB" --> Streams
+  DS1 -- "SUB" --> Streams
+  DS2 -- "PUB" --> Streams
+  DS2 -- "SUB" --> Streams
+  IS1 -- "PUB" --> Streams
+  IS1 -- "SUB" --> Streams
+  IS2 -- "PUB" --> Streams
+  IS2 -- "SUB" --> Streams
+  IS3 -- "PUB" --> Streams
+  IS3 -- "SUB" --> Streams
+  IS4 -- "PUB" --> Streams
+  IS4 -- "SUB" --> Streams
+
+  classDef box fill:#ffffff,stroke:#d4cfc6,color:#3a3a3a
+  class Web,Native,Agents,Catalogue,DS1,DS2,SAP,Bigcommerce,Relex,Databricks,IS1,IS2,IS3,IS4,Streams box
+```
+
+
+
 ## Apps
 
 ### [app.web](https://github.com/k-lt/app.web)
@@ -13,6 +55,7 @@ Overview of the preferred applications on the website, that are scored against c
 
 ### → `svc.companies`
 Overview of all the companies in the system. [**𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 ↗**](https://github.com/k-lt/svc.companies)
+
 ### → [svc.communications](https://github.com/k-lt/svc.communications)
 ### → [svc.clients](https://github.com/k-lt/svc.clients)
 ### → [svc.countries](https://github.com/k-lt/svc.countries)
