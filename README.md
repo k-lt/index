@@ -6,23 +6,18 @@ This project is a polyrepo containing applications, shared packages, and domain-
 ```mermaid
 block-beta
   columns 8
-
-  Web("Web") Native("Native") Agents("Agents") space SAP("SAP") Bigcommerce("Bigcommerce") Relex("Relex") Databricks("Databricks")
-  Catalogue("API & MCP Catalogue"):3 space:5
-  DS1("Domain Service") space DS2("Domain Service") space IS1(["Integration Service"]) IS2(["Integration Service"]) IS3(["Integration Service"]) IS4(["Integration Service"])
-  Streams[("Message Streams")]:8
+  Web["Web"] Native["Native"] Agents["Agents"] space SAP["SAP"] Bigcommerce["Bigcommerce"] Relex["Relex"] Databricks["Databricks"]
+  Catalogue["API &amp; MCP Catalogue"]:3 space:5
+  DS1["Domain Service"] space DS2["Domain Service"] space IS1(["Integration Service"]) IS2(["Integration Service"]) IS3(["Integration Service"]) IS4(["Integration Service"])
+  Streams["Message Streams"]:8
 
   Web -- "REST" --> Catalogue
   Native -- "REST" --> Catalogue
   Agents -- "REST" --> Catalogue
 
   SAP -- "REST" --> IS1
-  SAP -- "REST" --> IS1
-  Bigcommerce -- "REST" --> IS2
   Bigcommerce -- "REST" --> IS2
   Relex -- "BLOB" --> IS3
-  Relex -- "BLOB" --> IS3
-  Databricks -- "SQL" --> IS4
   Databricks -- "SQL" --> IS4
 
   DS1 -- "PUB" --> Streams
@@ -37,9 +32,6 @@ block-beta
   IS3 -- "SUB" --> Streams
   IS4 -- "PUB" --> Streams
   IS4 -- "SUB" --> Streams
-
-  classDef box fill:#ffffff,stroke:#d4cfc6,color:#3a3a3a
-  class Web,Native,Agents,Catalogue,DS1,DS2,SAP,Bigcommerce,Relex,Databricks,IS1,IS2,IS3,IS4,Streams box
 ```
 
 
@@ -104,13 +96,7 @@ ________
 ### [core.auth](https://github.com/k-lt/core.auth)
 ### [core.blob](https://github.com/k-lt/core.blob)
 ### core.channels
-The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels).
-
-[𝗿𝗲𝗮𝗱 𝗺𝗼𝗿𝗲 **↗**](https://github.com/k-lt/core.channels)
-
-[**𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 ↗**](https://github.com/k-lt/core.channels)
-
-
+The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels). [ʀᴇᴀᴅ ᴍᴏʀᴇ **↗**](https://github.com/k-lt/core.channels)
 
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
