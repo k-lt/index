@@ -1,8 +1,10 @@
 # ● Kalt — Index
 
-This project is a polyrepo with many smaller repositories. 
+This project is a polyrepo containing domain-, integration-, and core-services.
 
-It is a architecture based on services (domain and ), communicating using event carried state transfers on redis streams through the shared HA , 
+The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels) 
+
+It is a architecture based on services (domain and ),  , 
 
 with both off the shelf applications
 
