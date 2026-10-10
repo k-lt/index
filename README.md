@@ -17,14 +17,14 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/><br/>
 
 
-## Channels <img src="core/infra.svg" align="absmiddle">
+## Channels   <img src="core/infra.svg" align="absmiddle">
 `core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
 All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA.
 
 <br/><br/>
 
 
-## Postgres databases
+## Postgres databases   <img src="core/infra.svg" align="absmiddle">
 `core.psql` –  <a href="https://github.com/k-lt/core.psql"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.psql"><img alt="pkg/psql button" src="pkg/psql.svg" align="absmiddle"></a>
 
 A centrally managed instance of Multigres that support all the services. Since everything is run on multiple nodes, we achieve HA.
