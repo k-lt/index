@@ -9,6 +9,8 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <p align="center"> Illustration of architecture with some elements </p>
 
+Around the whole architeture is the nodes and on the nodes we have instances of a blob store (based on garage), databases (based on PSQL) that are not depicted in the image itself.
+
 <br/> <br/>
 
 ## Contracts
