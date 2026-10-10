@@ -1,9 +1,13 @@
 # ● Kalt — Index
 
-This project is a polyrepo containing applications, shared packages, and domain-, integration-, and core-services.
+This project is a polyrepo containing applications, shared packages, and domain-, integration-, and core-services. Based on the principles from domain driven design, team topologies, and enterprise clean architecture.
+
+<br/> <br/>
 
 
 <img src="arch.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
+
+<br/> <br/>
 
 ## Website
 `app.web` – <a href="https://github.com/k-lt/app.web"><img alt="read more" src="m2.svg" align="absmiddle"></a>
@@ -141,6 +145,20 @@ All domain and integration services communicate using event carried state transf
 ### [pkg.channels](https://github.com/k-lt/pkg.channels)
 ### [pkg.observe](https://github.com/k-lt/pkg.observe)
 
+<details>
 
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
 
 ⁰¹²³⁴⁵⁶⁷⁸⁹
