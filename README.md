@@ -32,9 +32,9 @@ npm install @k-lt/contracts@0.1.0
 ## Gateway    <img src="core/infra.svg" align="absmiddle">
 `core.gateway` – <a href="https://github.com/k-lt/core.gateway"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/gw.svg" align="absmiddle"></a>
 
-The gateway is where all traffic inbound to the node goes through, it is based on Pingora and extended with MCP capabilites. All the domain services makes their APIs available on the gateway using the [@pkg.gw](https://github.com/k-lt/pkg.gw) library. 
+The gateway is where all traffic inbound to the node goes through, it is based on Pingora and extended with MCP capabilites. All the domain services makes their APIs available on the gateway using the `@pkg.gw` library. 
 
-That way all services' APIs feel and look the same across the board. It enforces conformity.
+That way all services' APIs feel and look the same across the board. It enforces a level of conformity throughout the platform.
 
 
 <br/><br/>
