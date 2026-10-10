@@ -38,7 +38,7 @@ The bare metal nodes are all running from Hetzner. The `core.node` repository is
 2. Runs a watcher on the server
 3. Ensures new merges to main is reflected on the specific node
 
-And that is about it. It makes it feel like Vercel without the overhead.
+And that is about it. It makes it feel like Vercel while running on bare metal. 
 
 
 <br/> <br/>
