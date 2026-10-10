@@ -1,12 +1,6 @@
 # ● Kalt — Index
 
-This project is a polyrepo containing domain-, integration-, and core-services.
-
-The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels) 
-
-It is a architecture based on services (domain and ),  , 
-
-with both off the shelf applications
+This project is a polyrepo containing applications, shared packages, and domain-, integration-, and core-services.
 
 ## Apps
 
@@ -63,7 +57,11 @@ ________
 ### [core.inference](https://github.com/k-lt/core.inference)
 ### [core.auth](https://github.com/k-lt/core.auth)
 ### [core.blob](https://github.com/k-lt/core.blob)
-### [core.channels](https://github.com/k-lt/core.channels)
+### core.channels
+The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels).
+
+[Read more ↗](https://github.com/k-lt/core.channels)
+
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
 ### [pkg.auth](https://github.com/k-lt/pkg.auth)
