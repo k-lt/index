@@ -6,7 +6,7 @@ This project is a polyrepo containing applications, shared packages, and domain-
 ```mermaid
 block-beta
   columns 8
-  Web["Web"] Native["Native"] Agents["Agents"] space SAP["SAP"] Bigcommerce["Bigcommerce"] Relex["Relex"] Databricks["Databricks"]
+  Web["Web"] Native["Native"] Agents["Agents"] space OtsA["Off-the-shelf A"] OtsB["Off-the-shelf B"] OtsC["Off-the-shelf C"] OtsD["Off-the-shelf D"]
   Catalogue["API &amp; MCP Catalogue"]:3 space:5
   DS1["Domain Service"] space DS2["Domain Service"] space IS1(["Integration Service"]) IS2(["Integration Service"]) IS3(["Integration Service"]) IS4(["Integration Service"])
   Streams["Message Streams"]:8
@@ -15,10 +15,10 @@ block-beta
   Native -- "REST" --> Catalogue
   Agents -- "REST" --> Catalogue
 
-  SAP -- "REST" --> IS1
-  Bigcommerce -- "REST" --> IS2
-  Relex -- "BLOB" --> IS3
-  Databricks -- "SQL" --> IS4
+  OtsA -- "REST" --> IS1
+  OtsB -- "REST" --> IS2
+  OtsC -- "BLOB" --> IS3
+  OtsD -- "SQL" --> IS4
 
   DS1 -- "PUB" --> Streams
   DS1 -- "SUB" --> Streams
