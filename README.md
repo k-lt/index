@@ -71,7 +71,10 @@ Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https
 ### → [svc.clients](https://github.com/k-lt/svc.clients)
 ### → [svc.countries](https://github.com/k-lt/svc.countries)
 ### → [svc.direction](https://github.com/k-lt/svc.direction)
-### → [svc.dm](https://github.com/k-lt/svc.dm)
+### → svc.dm
+
+The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.dm)
+
 ### → [svc.doctrine](https://github.com/k-lt/svc.doctrine)
 ### → [svc.geo](https://github.com/k-lt/svc.geo)
 ### → [svc.roadmaps](https://github.com/k-lt/svc.roadmaps)
