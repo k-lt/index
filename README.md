@@ -57,7 +57,7 @@ That way all services' APIs feel and look the same across the board. It enforces
 ## Channels   <img src="core/infra.svg" align="absmiddle">
 `core.channels` –  <a href="https://github.com/k-lt/core.channels"><img alt="read more" src="m2.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.ch"><img alt="read more" src="pkg/ch.svg" align="absmiddle"></a>
 
-Based on redis streams All domain and integration services communicate using event carried state transfers [^1] on redis streams through the shared HA.
+Based on redis streams All domain and integration services communicate using event carried state transfers[^1] on redis streams through the shared HA.
 
 
 <br/><br/>
