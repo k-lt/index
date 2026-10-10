@@ -18,6 +18,8 @@ Everything in the platform is fully contract driven, even the source-aligned int
 
 This allows us to introduce breaking changes and have the other services and applications gracefully migrate over to the next version.
 
+This repository is made available as a github package
+
 <br/> <br/>
 
 ## Gateway    <img src="core/infra.svg" align="absmiddle">
