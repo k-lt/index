@@ -21,13 +21,19 @@ Overview of the preferred applications on the website, that are scored against c
 
 Overview of all the companies in the system.
 
+<br/><br/>
+
 ### Communications
 `svc.communications` – <a href="https://github.com/k-lt/svc.communications"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
+
+<br/><br/>
 
 ### Clients
 `svc.clients` – <a href="https://github.com/k-lt/svc.clients"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
-Clients is the .
+Clients is the 
+
+<br/><br/>
 
 ### Countries
 `svc.countries` – <a href="https://github.com/k-lt/svc.countries"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
@@ -37,13 +43,16 @@ Overview of all countries in the world. Available via API, MCP and through domai
 ### Direction
 `svc.direction` – <a href="https://github.com/k-lt/svc.direction"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
+Here goes the paragraph
+
+<br/><br/>
+
 ### DM
  `svc.dm` – <a href="https://github.com/k-lt/svc.dm"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
 
 The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms.
 
 <br/><br/>
-
 
 ### Doctrine
 `svc.doctrine` – <a href="https://github.com/k-lt/svc.doctrine"><img alt="read more" src="readmore.svg" height="20" align="absmiddle"></a>
