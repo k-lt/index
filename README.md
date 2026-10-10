@@ -7,10 +7,10 @@ This project is a polyrepo containing applications, shared packages, and domain-
 block-beta
   columns 15
   Web["Web"]:2 Native["Native"]:2 Agents["Agents"]:2 space OtsA["Off-the-shelf A"]:2 OtsB["Off-the-shelf B"]:2 OtsC["Off-the-shelf C"]:2 OtsD["Off-the-shelf D"]:2
-  Catalogue["API &amp; MCP Catalogue"]:6 space:9
+  Catalogue["<a href='https://github.com/k-lt/index#coregateway'>core.gateway</a>"]:6 space:9
   DS1["Domain Service"]:2 space:2 DS2["Domain Service"]:2 space IS1(["Integration Service"]):2 IS2(["Integration Service"]):2 IS3(["Integration Service"]):2 IS4(["Integration Service"]):2
   P1["PUB"] S1["SUB"] space:2 P2["PUB"] S2["SUB"] space P3["PUB"] S3["SUB"] P4["PUB"] S4["SUB"] P5["PUB"] S5["SUB"] P6["PUB"] S6["SUB"]
-  Streams["Message Streams"]:15
+  Streams["<a href='https://github.com/k-lt/index#corechannels'>Channels</a>"]:15
 
   Web -- "REST" --> Catalogue
   Native -- "REST" --> Catalogue
