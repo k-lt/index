@@ -114,6 +114,12 @@ We're not building just another inference alternative, but we are hosting our ow
 
 <br/> <br/>
 
+
+<details>
+
+<summary>More domain services:</summary>
+
+
 ## Applications
 `svc.applications`  –  <a href="https://github.com/k-lt/svc.applications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
@@ -165,36 +171,34 @@ The DM service is a super lightweight and minimal chatting service that support 
 ## Geo
 `svc.geo` – <a href="https://github.com/k-lt/svc.geo"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Roadmaps
+## Roadmaps
 `svc.roadmaps` – <a href="https://github.com/k-lt/svc.roadmaps"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Platform
+## Platform
 `svc.platform` – <a href="https://github.com/k-lt/svc.platform"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Publications
+## Publications
 `svc.publications` – <a href="https://github.com/k-lt/svc.publications"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Products
+## Products
 `svc.products` – <a href="https://github.com/k-lt/svc.products"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Search
+## Search
 `svc.search` – <a href="https://github.com/k-lt/svc.search"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Tasks
+## Tasks
 `svc.tasks` – <a href="https://github.com/k-lt/svc.tasks"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Workspaces
+## Workspaces
 `svc.workspaces` – <a href="https://github.com/k-lt/svc.workspaces"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Workforce
+## Workforce
 `svc.workforce` – <a href="https://github.com/k-lt/svc.workforce"><img alt="read more" src="i/more.svg" align="absmiddle"></a>
 
-### Integration services:
-
-
+</details>
 <details>
 
-<summary>Integration services</summary>
+<summary>Integration services:</summary>
 
 
 ### Linear
