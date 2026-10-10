@@ -5,8 +5,6 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 <img src="architecture.svg" alt="Web, native, and agents call core.gateway. Domain services sit behind the gateway. Off-the-shelf systems connect to integration services over REST, BLOB, or SQL. Domain and integration services publish and subscribe on Channels." width="100%">
 
-
-
 ## Apps
 
 ### [app.web](https://github.com/k-lt/app.web)
@@ -26,13 +24,18 @@ Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https
 ### → svc.clients
 
 Clients is the . [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.clients)
-### → svc.countries
+### → Countries
+`svc.countries` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.countries)
 
-Overview of all countries in the world. Available via API, MCP and through domain messages to other services.  [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.countries)
-### → [svc.direction](https://github.com/k-lt/svc.direction)
+Overview of all countries in the world. Available via API, MCP and through domain messages to other services.  
+
+### → Direction
+`svc.direction` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.direction)
+
 ### → svc.dm
+`svc.dm` – [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.dm)
 
-The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.dm)
+The DM service is a super lightweight and minimal chatting service that support both agents and real humans to talk together in threads, it pull together both external and internal people into the same chat rooms. 
 
 ### → [svc.doctrine](https://github.com/k-lt/svc.doctrine)
 ### → [svc.geo](https://github.com/k-lt/svc.geo)
