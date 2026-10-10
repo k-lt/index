@@ -96,7 +96,7 @@ ________
 ### [core.auth](https://github.com/k-lt/core.auth)
 ### [core.blob](https://github.com/k-lt/core.blob)
 ### core.channels
-The domain and integration services communicate using event carried state transfers on redis streams through the shared HA [@core.channels](https://github.com/k-lt/core.channels). [ʀᴇᴀᴅ ᴍᴏʀᴇ **↗**](https://github.com/k-lt/core.channels)
+All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA. [ʀᴇᴀᴅ ᴍᴏʀᴇ **↗**](https://github.com/k-lt/core.channels)
 
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
@@ -106,3 +106,7 @@ The domain and integration services communicate using event carried state transf
 ### [pkg.contracts](https://github.com/k-lt/pkg.contracts)
 ### [pkg.channels](https://github.com/k-lt/pkg.channels)
 ### [pkg.observe](https://github.com/k-lt/pkg.observe)
+
+
+
+⁰¹²³⁴⁵⁶⁷⁸⁹
