@@ -5,11 +5,12 @@ This project is a polyrepo containing applications, shared packages, and domain-
 
 ```mermaid
 block-beta
-  columns 8
-  Web["Web"] Native["Native"] Agents["Agents"] space OtsA["Off-the-shelf A"] OtsB["Off-the-shelf B"] OtsC["Off-the-shelf C"] OtsD["Off-the-shelf D"]
-  Catalogue["API &amp; MCP Catalogue"]:3 space:5
-  DS1["Domain Service"] space DS2["Domain Service"] space IS1(["Integration Service"]) IS2(["Integration Service"]) IS3(["Integration Service"]) IS4(["Integration Service"])
-  Streams["Message Streams"]:8
+  columns 15
+  Web["Web"]:2 Native["Native"]:2 Agents["Agents"]:2 space OtsA["Off-the-shelf A"]:2 OtsB["Off-the-shelf B"]:2 OtsC["Off-the-shelf C"]:2 OtsD["Off-the-shelf D"]:2
+  Catalogue["API &amp; MCP Catalogue"]:6 space:9
+  DS1["Domain Service"]:2 space:2 DS2["Domain Service"]:2 space IS1(["Integration Service"]):2 IS2(["Integration Service"]):2 IS3(["Integration Service"]):2 IS4(["Integration Service"]):2
+  P1["PUB"] S1["SUB"] space:2 P2["PUB"] S2["SUB"] space P3["PUB"] S3["SUB"] P4["PUB"] S4["SUB"] P5["PUB"] S5["SUB"] P6["PUB"] S6["SUB"]
+  Streams["Message Streams"]:15
 
   Web -- "REST" --> Catalogue
   Native -- "REST" --> Catalogue
@@ -20,18 +21,33 @@ block-beta
   OtsC -- "BLOB" --> IS3
   OtsD -- "SQL" --> IS4
 
-  DS1 -- "PUB" --> Streams
-  DS1 -- "SUB" --> Streams
-  DS2 -- "PUB" --> Streams
-  DS2 -- "SUB" --> Streams
-  IS1 -- "PUB" --> Streams
-  IS1 -- "SUB" --> Streams
-  IS2 -- "PUB" --> Streams
-  IS2 -- "SUB" --> Streams
-  IS3 -- "PUB" --> Streams
-  IS3 -- "SUB" --> Streams
-  IS4 -- "PUB" --> Streams
-  IS4 -- "SUB" --> Streams
+  DS1 --> P1
+  DS1 --> S1
+  DS2 --> P2
+  DS2 --> S2
+  IS1 --> P3
+  IS1 --> S3
+  IS2 --> P4
+  IS2 --> S4
+  IS3 --> P5
+  IS3 --> S5
+  IS4 --> P6
+  IS4 --> S6
+
+  P1 --> Streams
+  S1 --> Streams
+  P2 --> Streams
+  S2 --> Streams
+  P3 --> Streams
+  S3 --> Streams
+  P4 --> Streams
+  S4 --> Streams
+  P5 --> Streams
+  S5 --> Streams
+  P6 --> Streams
+  S6 --> Streams
+
+  style P1,S1,P2,S2,P3,S3,P4,S4,P5,S5,P6,S6 fill:transparent,stroke:transparent
 ```
 
 
@@ -43,12 +59,15 @@ ________
 ## Services
 ### Domain services:
 ### → `svc.applications`
-Overview of the preferred applications on the website, that are scored against criteria. [**𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 ↗**](https://github.com/k-lt/svc.applications)
+Overview of the preferred applications on the website, that are scored against criteria. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.applications)
 
 ### → `svc.companies`
-Overview of all the companies in the system. [**𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 ↗**](https://github.com/k-lt/svc.companies)
+Overview of all the companies in the system. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.companies)
 
-### → [svc.communications](https://github.com/k-lt/svc.communications)
+### → `svc.communications`
+
+[ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/svc.communications)
+
 ### → [svc.clients](https://github.com/k-lt/svc.clients)
 ### → [svc.countries](https://github.com/k-lt/svc.countries)
 ### → [svc.direction](https://github.com/k-lt/svc.direction)
@@ -96,7 +115,7 @@ ________
 ### [core.auth](https://github.com/k-lt/core.auth)
 ### [core.blob](https://github.com/k-lt/core.blob)
 ### core.channels
-All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA. [ʀᴇᴀᴅ ᴍᴏʀᴇ **↗**](https://github.com/k-lt/core.channels)
+All domain and integration services communicate using event carried state transfers [⁰¹](https://github.com/k-lt/index/blob/main/concepts.md#-event-carried-state-transfers) on redis streams through the shared HA. [ʀᴇᴀᴅ ᴍᴏʀᴇ ↗](https://github.com/k-lt/core.channels)
 
 ### [core.gateway](https://github.com/k-lt/core.gateway)
 ### [core.node](https://github.com/k-lt/core.node)
