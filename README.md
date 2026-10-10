@@ -92,7 +92,11 @@ The underlying infrastructure is distributed, so each service that will use it n
 
 
 
-## [core.observe](https://github.com/k-lt/core.observe)
+## Observe   <img src="i/core.svg" align="absmiddle">
+`core.observe`  –  <a href="https://github.com/k-lt/core.observe"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.log"><img alt="read more" src="i/pkg/log.svg" align="absmiddle"></a>
+
+<br/> <br/>
+
 
 ## Authentication
 `core.auth`  –  <a href="https://github.com/k-lt/core.auth"><img alt="read more" src="i/more.svg" align="absmiddle"></a> – <a href="https://github.com/k-lt/pkg.auth"><img alt="read more" src="i/pkg/auth.svg" align="absmiddle"></a>
