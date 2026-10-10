@@ -12,7 +12,11 @@ This project is a polyrepo containing applications, shared packages, and domain-
 <br/> <br/>
 
 ## Contracts
- [pkg.contracts](https://github.com/k-lt/pkg.contracts)
+`pkg.contracts`  – <a href="https://github.com/k-lt/pkg.gw"><img alt="read more" src="pkg/contracts.svg" align="absmiddle"></a>
+
+Everything in the platform is fully contract driven, even the source-aligned integrations has contracts they offer over the channels it distributes data on. This repository is editable by the owners of the contracts. The contracts, both for messages and for the API is versioned.
+
+This allows us to introduce breaking changes and have the other services and applications gracefully migrate over to the next version.
 
 <br/> <br/>
 
